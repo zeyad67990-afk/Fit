@@ -1,0 +1,8 @@
+<svg width="70" height="60" viewBox="0 0 70 60" xmlns="http://www.w3.org/2000/svg">
+  <title>Adaptive Plans</title>
+  <path d="M34 8 A26 26 0 1 1 8 34" fill="none" stroke="#22d46e" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="34,4 28,12 40,12" fill="#22d46e"/>
+  <rect x="20" y="36" width="6" height="14" rx="2" fill="#22d46e" opacity="0.5"/>
+  <rect x="30" y="28" width="6" height="22" rx="2" fill="#22d46e" opacity="0.75"/>
+  <rect x="40" y="22" width="6" height="28" rx="2" fill="#22d46e"/>
+</svg>

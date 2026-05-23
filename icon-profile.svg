@@ -1,0 +1,10 @@
+<svg width="70" height="75" viewBox="0 0 70 75" xmlns="http://www.w3.org/2000/svg">
+  <title>Create Profile</title>
+  <circle cx="35" cy="18" r="13" fill="none" stroke="#22d46e" stroke-width="1.8"/>
+  <path d="M10 70 Q10 46 35 46 Q60 46 60 70" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="22" y1="56" x2="48" y2="56" stroke="#22d46e" stroke-width="1.2" opacity="0.5"/>
+  <line x1="22" y1="63" x2="42" y2="63" stroke="#22d46e" stroke-width="1.2" opacity="0.5"/>
+  <circle cx="58" cy="10" r="3" fill="#22d46e" opacity="0.6"/>
+  <line x1="58" y1="5" x2="58" y2="15" stroke="#22d46e" stroke-width="1" opacity="0.6"/>
+  <line x1="53" y1="10" x2="63" y2="10" stroke="#22d46e" stroke-width="1" opacity="0.6"/>
+</svg>

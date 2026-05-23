@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitMind</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section class="hero" id="home">
+        <nav>
+            <a href="#home" class="nav-logo-link" aria-label="FitMind home">
+            <svg class="nav-logo" viewBox="0 0 400 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <title>FitMind Logo</title>
+                <defs>
+                    <style>.logo-text { font-family: 'Arial Black', Arial, sans-serif; font-weight: 900; letter-spacing: -1px; }</style>
+                </defs>
+                <g transform="translate(158, 8)">
+                    <ellipse cx="18" cy="28" rx="18" ry="22" fill="none" stroke="#22d46e" stroke-width="1.8"/>
+                    <ellipse cx="52" cy="28" rx="18" ry="22" fill="none" stroke="#22d46e" stroke-width="1.8"/>
+                    <line x1="35" y1="12" x2="35" y2="44" stroke="#22d46e" stroke-width="1.2" stroke-dasharray="3,2"/>
+                    <path d="M8 20 Q14 16 10 24" stroke="#22d46e" stroke-width="1" fill="none"/>
+                    <path d="M6 30 Q12 26 8 34" stroke="#22d46e" stroke-width="1" fill="none"/>
+                    <path d="M10 38 Q16 34 12 42" stroke="#22d46e" stroke-width="1" fill="none"/>
+                    <path d="M62 20 Q56 16 60 24" stroke="#22d46e" stroke-width="1" fill="none"/>
+                    <path d="M64 30 Q58 26 62 34" stroke="#22d46e" stroke-width="1" fill="none"/>
+                    <path d="M60 38 Q54 34 58 42" stroke="#22d46e" stroke-width="1" fill="none"/>
+                    <polygon points="38,4 27,30 36,30 31,58 47,26 38,26" fill="#22d46e"/>
+                </g>
+                <text x="200" y="128" text-anchor="middle" class="logo-text" font-size="48" fill="#ffffff">Fit<tspan fill="#22d46e">Mind</tspan></text>
+            </svg>
+            </a>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span></a></li>
+                    <li><a href="#features" class="nav-link"><i class="fas fa-bolt" aria-hidden="true"></i><span>Features</span></a></li>
+                    <li><a href="#steps" class="nav-link"><i class="fas fa-list-check" aria-hidden="true"></i><span>How It Works</span></a></li>
+                    <li><a href="#pricing" class="nav-link"><i class="fas fa-tag" aria-hidden="true"></i><span>Pricing</span></a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-envelope" aria-hidden="true"></i><span>Contact</span></a></li>
+                </ul>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+        <div class="cont">
+          <div class="main">
+            <h1>Train <span>Smarter.</span></h1>
+            <h1>Not Harder.</h1>
+          </div>
+          <div class="sec">
+            <p>AI-powered plans that adapt to you every week.</p>
+          </div>
+          <div class="buttons">
+            <button class="btn-primary" onclick="scrollToSection('#pricing')">Get My Free Plan</button>
+            <button class="btn-secondary" onclick="scrollToSection('#steps')">See How It Works</button>
+          </div>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <div class="features-header">
+            <p class="features-badge">✦ FEATURES</p>
+            <h2 class="features-title">Why Choose FitMind?</h2>
+            <p class="features-subtitle">Everything you need to reach your goals — in one place.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+            <img src="icon-brain.svg" alt="AI Coaching">
+            <h3>AI Coaching</h3>
+            <p>Personalized plans built by AI that learn from your body, habits, and progress every single day.</p>
+            </div>
+            <div class="feature-card">
+            <img src="icon-adaptive.svg" alt="Adaptive Plans">
+            <h3>Adaptive Plans</h3>
+            <p>Your workout updates automatically every week based on your performance and recovery data.</p>
+            </div>
+            <div class="feature-card">
+            <img src="icon-nutrition.svg" alt="Nutrition Tracking">
+            <h3>Nutrition Tracking</h3>
+            <p>Smart meal suggestions tailored to your fitness goals — calories, macros, and hydration all in one place.</p>
+            </div>
+            <div class="feature-card">
+            <img src="icon-progress.svg" alt="Progress Tracking">
+            <h3>Progress Tracking</h3>
+            <p>Visual stats, streaks, and milestones that keep you motivated and moving forward every day.</p>
+            </div>
+        </div>
+    </section>
+    <section class="steps" id="steps"> 
+        <div class="steps-header">
+            <p class="steps-badge">✦ HOW IT WORKS</p>
+            <h2 class="steps-title">Three Steps to Your Best Shape</h2>
+            <p class="steps-subtitle">Getting started takes less than 2 minutes.</p>
+        </div>
+        <div class="steps-grid">
+            <div class="step-card">
+                <span class="step-number">1</span>
+                <img src="icon-profile.svg" alt="Create Profile">
+                <h3>Create Your Profile</h3>
+                <p>Tell us your goals, fitness level, and schedule — AI does the rest.</p>
+            </div>
+             <div class="step-arrow">→</div>
+            <div class="step-card">
+                <span class="step-number">2</span>
+                <img src="icon-plan.svg" alt="Get Your Plan">
+                <h3>Get Your Plan</h3>
+                <p>Receive a fully personalized workout and nutrition plan instantly.</p>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step-card">
+                <span class="step-number">3</span>
+                <img src="icon-trophy.svg" alt="Track and Improve">
+                <h3>Track & Improve</h3>
+                <p>Log your workouts, track progress, and watch your plan evolve weekly.</p>
+            </div>
+        </div>
+    </section>
+    <section class="pricing" id="pricing">
+        <div class="pricing-header">
+            <p class="pricing-badge">✦ PRICING</p>
+            <h2 class="pricing-title">Simple, Transparent Pricing</h2>
+            <p class="pricing-subtitle">No hidden fees. Cancel anytime.</p>
+        </div>
+        <div class="pricing-grid">
+            <!-- Free card -->
+            <div class="pricing-card">
+                <p class="pricing-title">Free</p>
+            <div class="plan-price">
+                <span class="price-amount">$0</span>
+                <span class="price-period">/mo</span>
+            </div>
+            <ul class="feature-list">
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Basic workout plan
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    3 AI suggestions per week
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Progress tracking
+                </li>
+                <li class="feature-item disabled">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(255,255,255,0.04)"/><line x1="5" y1="5" x2="11" y2="11" stroke="#2d3748" stroke-width="1.8" stroke-linecap="round"/><line x1="11" y1="5" x2="5" y2="11" stroke="#2d3748" stroke-width="1.8" stroke-linecap="round"/></svg>
+                    Nutrition tracking
+                </li>
+                <li class="feature-item disabled">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(255,255,255,0.04)"/><line x1="5" y1="5" x2="11" y2="11" stroke="#2d3748" stroke-width="1.8" stroke-linecap="round"/><line x1="11" y1="5" x2="5" y2="11" stroke="#2d3748" stroke-width="1.8" stroke-linecap="round"/></svg>
+                    Adaptive plans
+                </li>
+                <li class="feature-item disabled">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(255,255,255,0.04)"/><line x1="5" y1="5" x2="11" y2="11" stroke="#2d3748" stroke-width="1.8" stroke-linecap="round"/><line x1="11" y1="5" x2="5" y2="11" stroke="#2d3748" stroke-width="1.8" stroke-linecap="round"/></svg>
+                    Priority support
+                </li>
+            </ul>
+            <button class="btn-outline">Get Started Free</button>
+        </div>
+            <!-- Pro card -->
+            <div class="pricing-card featured">
+                <div class="popular-badge">⭐ Most Popular</div>
+                <p class="pricing-title">Pro</p>
+            <div class="plan-price">
+                <span class="price-amount">$19</span>
+                <span class="price-period">/mo</span>
+            </div>
+            <ul class="feature-list">
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Full workout plan
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Unlimited AI coaching
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Progress tracking
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Nutrition tracking
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Adaptive plans
+                </li>
+                <li class="feature-item disabled">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(255,255,255,0.04)"/><line x1="5" y1="5" x2="11" y2="11" stroke="#2d3748" stroke-width="1.8" stroke-linecap="round"/><line x1="11" y1="5" x2="5" y2="11" stroke="#2d3748" stroke-width="1.8" stroke-linecap="round"/></svg>
+                    Priority support
+                </li>
+            </ul>
+            <button class="btn-solid">Start Pro Plan</button>
+        </div>
+            <!-- Elite card -->
+            <div class="pricing-card">
+                <p class="pricing-title">Elite</p>
+            <div class="plan-price">
+                <span class="price-amount">$49</span>
+                <span class="price-period">/mo</span>
+            </div>
+            <ul class="feature-list">
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Everything in Pro
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Priority support 24/7
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Personal AI coach
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Advanced analytics
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Custom meal plans
+                </li>
+                <li class="feature-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="7" fill="rgba(34,212,110,0.15)"/><polyline points="4,8 7,11 12,5" fill="none" stroke="#22d46e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Early access features
+                </li>
+            </ul>
+            <button class="btn-outline">Go Elite</button>
+        </div>
+        </div>
+    </section>
+<section class="testimonial">
+    <div class="testimonial-header">
+        <p class="testimonial-badge">✦ TESTIMONIALS</p>
+        <h2 class="testimonial-title">What Our Users Say</h2>
+        <p class="testimonial-subtitle">Over 50,000 people already training smarter.</p>
+    </div>
+
+    <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+            <div class="testimonial-author">
+                <div class="avatar">JD</div>
+                <div class="author-info">
+                    <p class="author-name">James Davidson</p>
+                    <p class="author-role">Lost 18kg in 3 months</p>
+                </div>
+            </div>
+            <div class="stars">
+                <svg width="90" height="16" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="8,2 10,6 14,6 11,9 12,13 8,11 4,13 5,9 2,6 6,6" fill="#22d46e"/>
+                    <polygon points="26,2 28,6 32,6 29,9 30,13 26,11 22,13 23,9 20,6 24,6" fill="#22d46e"/>
+                    <polygon points="44,2 46,6 50,6 47,9 48,13 44,11 40,13 41,9 38,6 42,6" fill="#22d46e"/>
+                    <polygon points="62,2 64,6 68,6 65,9 66,13 62,11 58,13 59,9 56,6 60,6" fill="#22d46e"/>
+                    <polygon points="80,2 82,6 86,6 83,9 84,13 80,11 76,13 77,9 74,6 78,6" fill="#22d46e"/>
+                </svg>
+            </div>
+            <p class="testimonial-quote">"FitMind completely changed how I train. The AI plans felt like having a personal trainer in my pocket every single day."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-author">
+                <div class="avatar">SM</div>
+                <div class="author-info">
+                    <p class="author-name">Sarah Mitchell</p>
+                    <p class="author-role">Marathon runner</p>
+                </div>
+            </div>
+            <div class="stars">
+                <svg width="90" height="16" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="8,2 10,6 14,6 11,9 12,13 8,11 4,13 5,9 2,6 6,6" fill="#22d46e"/>
+                    <polygon points="26,2 28,6 32,6 29,9 30,13 26,11 22,13 23,9 20,6 24,6" fill="#22d46e"/>
+                    <polygon points="44,2 46,6 50,6 47,9 48,13 44,11 40,13 41,9 38,6 42,6" fill="#22d46e"/>
+                    <polygon points="62,2 64,6 68,6 65,9 66,13 62,11 58,13 59,9 56,6 60,6" fill="#22d46e"/>
+                    <polygon points="80,2 82,6 86,6 83,9 84,13 80,11 76,13 77,9 74,6 78,6" fill="#22d46e"/>
+                </svg>
+            </div>
+            <p class="testimonial-quote">"I've tried every fitness app out there. Nothing adapts like FitMind. My race times dropped by 12% in just 6 weeks."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="testimonial-author">
+                <div class="avatar">AR</div>
+                <div class="author-info">
+                    <p class="author-name">Alex Rivera</p>
+                    <p class="author-role">Gym enthusiast</p>
+                </div>
+            </div>
+            <div class="stars">
+                <svg width="90" height="16" viewBox="0 0 90 16" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="8,2 10,6 14,6 11,9 12,13 8,11 4,13 5,9 2,6 6,6" fill="#22d46e"/>
+                    <polygon points="26,2 28,6 32,6 29,9 30,13 26,11 22,13 23,9 20,6 24,6" fill="#22d46e"/>
+                    <polygon points="44,2 46,6 50,6 47,9 48,13 44,11 40,13 41,9 38,6 42,6" fill="#22d46e"/>
+                    <polygon points="62,2 64,6 68,6 65,9 66,13 62,11 58,13 59,9 56,6 60,6" fill="#22d46e"/>
+                    <polygon points="80,2 82,6 86,6 83,9 84,13 80,11 76,13 77,9 74,6 78,6" fill="#22d46e"/>
+                </svg>
+            </div>
+            <p class="testimonial-quote">"The nutrition tracking combined with AI coaching is next level. I finally understand what my body actually needs."</p>
+        </div>
+
+    </div>
+</section>
+<footer class="footer" id="contact">
+    <div class="footer-top">
+        <div class="footer-grid">
+
+            <!-- Column 1 - Brand -->
+            <div class="footer-brand">
+                <svg class="footer-logo" viewBox="0 0 400 160" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <style>.logo-text { font-family: 'Arial Black', Arial, sans-serif; font-weight: 900; letter-spacing: -1px; }</style>
+                    </defs>
+                    <g transform="translate(158, 8)">
+                        <ellipse cx="18" cy="28" rx="18" ry="22" fill="none" stroke="#22d46e" stroke-width="1.8"/>
+                        <ellipse cx="52" cy="28" rx="18" ry="22" fill="none" stroke="#22d46e" stroke-width="1.8"/>
+                        <line x1="35" y1="12" x2="35" y2="44" stroke="#22d46e" stroke-width="1.2" stroke-dasharray="3,2"/>
+                        <path d="M8 20 Q14 16 10 24" stroke="#22d46e" stroke-width="1" fill="none"/>
+                        <path d="M6 30 Q12 26 8 34" stroke="#22d46e" stroke-width="1" fill="none"/>
+                        <path d="M10 38 Q16 34 12 42" stroke="#22d46e" stroke-width="1" fill="none"/>
+                        <path d="M62 20 Q56 16 60 24" stroke="#22d46e" stroke-width="1" fill="none"/>
+                        <path d="M64 30 Q58 26 62 34" stroke="#22d46e" stroke-width="1" fill="none"/>
+                        <path d="M60 38 Q54 34 58 42" stroke="#22d46e" stroke-width="1" fill="none"/>
+                        <polygon points="38,4 27,30 36,30 31,58 47,26 38,26" fill="#22d46e"/>
+                    </g>
+                    <text x="200" y="128" text-anchor="middle" class="logo-text" font-size="48" fill="#ffffff">Fit<tspan fill="#22d46e">Mind</tspan></text>
+                </svg>
+                <p class="footer-tagline">Train smarter, not harder. AI-powered fitness for everyone.</p>
+                <div class="social-icons">
+                    <!-- Twitter -->
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.988l4.27 5.647 4.736-5.647zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z" fill="#a0aec0"/>
+                        </svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="2" width="20" height="20" rx="5" stroke="#a0aec0" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="4" stroke="#a0aec0" stroke-width="2"/>
+                            <circle cx="17.5" cy="6.5" r="1" fill="#a0aec0"/>
+                        </svg>
+                    </a>
+                    <!-- YouTube -->
+                    <a href="#" class="social-icon" aria-label="YouTube">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="5" width="20" height="14" rx="4" stroke="#a0aec0" stroke-width="2"/>
+                            <polygon points="10,8 16,12 10,16" fill="#a0aec0"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Column 2 - Quick Links -->
+            <div class="footer-col">
+                <h4 class="footer-col-title">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#steps">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 - Features -->
+            <div class="footer-col">
+                <h4 class="footer-col-title">Features</h4>
+                <ul class="footer-links">
+                    <li><a href="#features">AI Coaching</a></li>
+                    <li><a href="#features">Adaptive Plans</a></li>
+                    <li><a href="#features">Nutrition Tracking</a></li>
+                    <li><a href="#features">Progress Tracking</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4 - Contact Form -->
+            <div class="footer-col footer-form-col">
+                <h4 class="footer-col-title">Get In Touch</h4>
+                <p class="footer-contact-text">Have questions? We'd love to hear from you.</p>
+                <div class="contact-info">
+                    <p class="contact-detail">📧 hello@fitmind.com</p>
+                    <p class="contact-detail">📞 +1 (555) 123-4567</p>
+                    <p class="contact-detail">🕐 Available 24/7</p>
+                </div>
+                <div class="contact-form">
+                    <input type="text" class="form-input" placeholder="Full Name">
+                    <input type="email" class="form-input" placeholder="Email Address">
+                    <textarea class="form-input form-textarea" placeholder="Your Message" rows="4"></textarea>
+                    <button class="btn-solid form-btn">Send Message</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        <p class="footer-copy">© 2026 FitMind. All rights reserved.</p>
+        <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+
+    <script>
+        // ── Nav links (all <a class="nav-link">) ──
+        const navLinkItems = document.querySelectorAll('.nav-link');
+        // ── Nav links wrapper (the div.nav-links) ──
+        const navLinksWrapper = document.querySelector('.nav-links');
+        // ── Hamburger button ──
+        const hamburger = document.getElementById('hamburger');
+
+        // Active link on click
+        navLinkItems.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinkItems.forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+                navLinksWrapper.classList.remove('open');
+            });
+        });
+
+        // Active link on scroll
+        const sections = document.querySelectorAll('#home, #features, #steps, #pricing, #contact');
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.id;
+                    navLinkItems.forEach(link => {
+                        link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+                    });
+                }
+            });
+        }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
+        sections.forEach(section => sectionObserver.observe(section));
+
+        // Hamburger toggle
+        hamburger.addEventListener('click', () => {
+            navLinksWrapper.classList.toggle('open');
+        });
+
+        // Scroll animation for cards
+        const cards = document.querySelectorAll('.feature-card, .step-card, .pricing-card, .testimonial-card');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    const card = entry.target;
+                    const grid = card.closest('.features-grid, .steps-grid, .pricing-grid, .testimonials-grid');
+                    const siblings = grid
+                        ? grid.querySelectorAll('.feature-card, .step-card, .pricing-card, .testimonial-card')
+                        : cards;
+                    const index = [...siblings].indexOf(card);
+                    setTimeout(() => {
+                        card.classList.add('visible');
+                    }, index * 150);
+                    observer.unobserve(card);
+                }
+            });
+        }, { threshold: 0.15 });
+        cards.forEach(card => observer.observe(card));
+
+        // Smooth scroll for hero buttons
+        function scrollToSection(target) {
+            const section = document.querySelector(target);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+
+</body>
+</html>

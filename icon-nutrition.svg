@@ -1,0 +1,9 @@
+<svg width="70" height="60" viewBox="0 0 70 60" xmlns="http://www.w3.org/2000/svg">
+  <title>Nutrition Tracking</title>
+  <path d="M37 54 L37 28" stroke="#22d46e" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M37 28 Q20 20 22 8 Q30 2 37 12 Q44 2 52 8 Q54 20 37 28Z" fill="#22d46e" opacity="0.85"/>
+  <line x1="28" y1="18" x2="37" y2="28" stroke="#0a0e1a" stroke-width="1.2"/>
+  <line x1="46" y1="18" x2="37" y2="28" stroke="#0a0e1a" stroke-width="1.2"/>
+  <rect x="18" y="28" width="4" height="24" rx="2" fill="#22d46e" opacity="0.5"/>
+  <path d="M18 28 Q18 18 22 18 Q26 18 26 28" fill="none" stroke="#22d46e" stroke-width="1.5"/>
+</svg>
